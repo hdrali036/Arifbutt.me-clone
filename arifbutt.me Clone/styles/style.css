@@ -1,0 +1,136 @@
+body{
+    font-family: 'Montserrat';
+    color: black;
+}
+.logos{ 
+    
+    display:flex;    
+    margin: 0px 2.5rem;
+    justify-content: space-between;
+}
+.logo-link{
+    border: 1px solid rgba(230,230,255,2);
+    border-radius: 0.5rem;
+    
+}
+.media{
+    width: 35px;
+    height: 35px;
+    opacity: 0.7;
+}
+.media:hover {
+   opacity: 1;
+}
+.linkedin{
+    width: 40px;
+    height: 40px;
+}
+.army-logo{
+    
+    width: 75px;
+    height: 75px;
+    
+}
+.pucit-logo{
+    width:75px;
+    height:75px;
+}
+
+
+.nav-bar{
+    align-items: center;
+    text-align:center;
+    
+
+}
+.dropbtn {
+    
+    color:black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    text-align: left;
+    background-color:white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown a{
+      text-decoration: none;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {color:orange ;}
+
+
+
+
+.picture{
+   
+    width:25rem;
+    height:27rem;
+}
+
+.potrait{
+    margin: 0 auto 0 auto;
+    width:97%;
+}
+.potrait h2{
+    margin-bottom: 3rem;
+    padding-bottom: 5rem;
+    padding-left: 4rem;
+}
+
+.grid-container{
+    display: flex;
+    margin: 0 auto 0 auto;
+    width:97%;
+}
+.general-profile{
+    text-align: justify;
+    border-radius: 0.3rem;
+    background-color:rgb(248,248,248);
+    margin-top: 2rem;
+    margin-right: 2rem;
+    padding: 4rem 2rem 4rem 2rem;
+    border-left:0.4rem solid palegreen;
+}
+.address-profile{
+    text-align: justify;
+    border-radius: 0.3rem;
+    background-color:rgb(248,248,248);
+    margin-top: 2rem;
+    padding: 4rem 2rem 4rem 2rem;
+    border-left:0.4rem solid palegreen;
+    display: flex;
+}
+.spaced-text{
+    margin-left: 2rem;
+}
+.headings{
+    font-weight: 700;
+    min-width: 8rem;
+}
+.data{
+    padding-left:2rem;
+}
